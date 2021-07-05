@@ -8,30 +8,27 @@ A simple telegram bot using Python script(telethon) when trigger specific word w
 Get Telegram API Key
 got to https://my.telegram.org and go to API development tools
 
+copy your name,api_id,api_hash from App configuration and replace it in auto-reply.py:
+
+```python
+client = TelegramClient(name, api_id, api_hash)
+```
 Install Python
 https://www.python.org/downloads/
 
 Install telethon
 https://docs.telethon.dev/en/latest/basic/installation.html
+
 ## Usage
 
+when someone send the trigger message will auto-reply. change to what you like
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+trigger = "揼"
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Auto-reply message. change to what you like
 
-Please make sure to update tests as appropriate.
+```python
+reply = ["邊位"]
+```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
