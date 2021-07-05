@@ -22,7 +22,7 @@ if __name__ == '__main__':
      
       if event.is_private: #reply in private
           if event.message.media.document.id == 2781732661285100615:
-            await event.respond("[KK 🥇](tg://user?id=955715281)") 
+            await event.respond("斷你") 
       if event.is_group: #reply in group
         #print(event,event.chat_id)
         if event.chat_id == -1001210202420 or event.chat_id == -1001425821503:  #reply in group_id
