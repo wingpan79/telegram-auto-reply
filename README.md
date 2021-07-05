@@ -1,16 +1,18 @@
 
-# Foobar
+# telegram-auto-reply
 
-Foobar is a Python library for dealing with word pluralization.
+A simple telegram bot using Python script(telethon) when trigger specific word will auto replying telegram message.Able to reply in specific group or private chat
 
-## Installation
+## How to use
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Get Telegram API Key
+got to https://my.telegram.org and go to API development tools
 
-```bash
-pip install foobar
-```
+Install Python
+https://www.python.org/downloads/
 
+Install telethon
+https://docs.telethon.dev/en/latest/basic/installation.html
 ## Usage
 
 ```python
